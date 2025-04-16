@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  body {
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Menu de navegação */
+  nav {
+    background: #4CAF50;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    background: #45a049;
+  }
+
+  /* Conteúdo principal */
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    padding: 30px;
+  }
+
+  .ebook-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .ebook-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .ebook-container p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .ebook-container img {
+    width: 60%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .cta-button {
+    background: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .cta-button:hover {
+    background: #45a049;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+  }

